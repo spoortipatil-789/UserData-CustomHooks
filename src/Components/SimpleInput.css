@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: rgb(127, 125, 126);
+}
+.app {
+  background-color: white;
+  width: 90%;
+  max-width: 40rem;
+  padding: 1rem;
+  border-radius: 12px;
+  border-color: white;
+  margin: 3rem auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input,
+.form lable {
+  margin-bottom: 0.5rem;
+}
+.form input {
+  padding: 7px;
+}
+.button-action button {
+  width: 100%;
+  background-color: rgb(113, 197, 120);
+  padding: 10px;
+  border: none;
+  color: rgb(31, 29, 29);
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+.invalid input {
+  border: 1px solid red;
+}
+.error-Message {
+  color: red;
+}
+button:disabled,
+button:disabled:hover {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
